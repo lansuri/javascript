@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MELTING BOWLZ</title>
+    <!-- ===================================bootstrap link============================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- =========================font library============================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- ====================css link====================== -->
+    <link rel="stylesheet" href="./assests/style.css">
+    <!-- =====================font link======================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <!-- =============logo link==================== -->
+    <link rel="fav icon" href="./assests/IMAGES/logo.png"> 
+</head>
+<body>
+   <div class="container-fluid"id="img">
+    <div class="title">
+    <h1>MELTING BOWLZ</h1>
+   </div>
+     <div class="row  justify-content-center my-5">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="" onsubmit="fun(event)">
+                            <div class="input-group">
+                                <input type="text" placeholder="ENTER YOUR USERNAME" id="username" class="form-control">
+                            </div>
+                            <p>lansu</p>
+                            <div class="input-group" id="icon">
+                                <span class="input-group-text"><i class="fa-solid fa-eye" id="show" onclick="toggleicon()"></i> 
+                                    <i class="fa-solid fa-eye-slash" id="hide" onclick="toggleicon()"></i></span>
+                                <input type="password" name="" placeholder="ENTER PASSWORD" id="password" class="form-control" onkeyup="password_fun()">
+                            </div>
+                              <p>Abc@2003</p>
+                            <div>
+                               <h6 id="uppercase"></h6>
+                               <h6 id="eightcharacters"></h6>
+                               <h6 id="special"></h6>
+                               <h6 id="number"></h6>
+                            </div>
+                            <div class="input-group px-2">
+                                <button class="btn btn-primary  w-100">CLICK</button>
+                            </div>
+                           
+                        </form>
+                            <div id="result">
+
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+ 
+   
+</body>
+<script src="assests/file.js"></script>
+</html>

@@ -1,0 +1,50 @@
+*{
+    margin:0%;
+    /* font-family: "Kaushan Script", cursive; */
+}
+.container-fluid>.d-flex>#topic{
+   color: #000b069d;
+   font-family: "Kaushan Script", cursive;
+   font-size: 45px;
+   text-align: center;
+  
+}
+
+/* #icon{
+    padding-top:40px;
+} */
+
+#bg>#bg_color{
+     background:radial-gradient(#aee1e8);
+}
+
+#logo{
+    height: 70px;
+    border-radius:40px;
+
+}
+
+#img{
+ background-image:url(../assests/IMAGES/bgimg.avif);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:727px;
+}
+
+.title>h1{
+    padding-top:150px ;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: "Kaushan Script", cursive;
+}
+.card>.card-body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#hide{
+    display: none;
+}
+#totalprice{
+    padding-left:60rem;
+}
+ 
